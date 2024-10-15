@@ -1,0 +1,35 @@
+<package format="3">
+  <name>tmc_pseudo_velocity_controller</name>
+  <version>2.0.0</version>
+  <description>Converting velocity command to position command.</description>
+  <maintainer email="xr-hsr-support@mail.toyota.co.jp">HSR Support</maintainer>
+
+  <license>BSD 3-clause Clear License</license>
+  <url type="website">None</url>
+
+  <author>Keisuke Takeshita</author>
+  <author>Kiyohiro Sogen</author>
+  <author>Satoru Onoda</author>
+  <author>Takafumi Mizuno</author>
+  <author>Takashi Ogura</author>
+  <author>Yusuke Ota</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>message_filters</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tmc_manipulation_util</depend>
+  <depend>tmc_msgs</depend>
+  <depend>tmc_utils</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>urdf</depend>
+
+  <test_depend>boost</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>tmc_manipulation_tests</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
